@@ -16,8 +16,8 @@ Before running the Python script, you must configure the SensorTile.box to strea
 Since the Piper arm communicates via CAN-bus, you need `can-utils` installed on your Linux machine:
 
 ```bash
-sudo apt-get update
-sudo apt-get install can-utils
+sudo apt update
+sudo apt install can-utils
 ```
 
 ## ⚙️ Installation & Setup
