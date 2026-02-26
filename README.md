@@ -26,7 +26,7 @@ sudo apt install can-utils
 
    ```bash
    git clone git@github.com:kartman88/Piper-Arm-IMU-control.git
-   cd piper-imu-control
+   cd Piper-Arm-IMU-control
    ```
 
 2. **Environment Setup:**
@@ -39,7 +39,7 @@ sudo apt install can-utils
    ```
 
 3. **Device Registration (Linux Specific):**
-   On Linux, the serial port for the SensorTile may require specific registration to be visible to the script. Execute the provided setup script:
+   On Linux, the serial port for the SensorTile may require specific registration to be visible to the script. Connect the SensorTile first then execute the provided setup script:
 
    ```bash
    chmod +x register_sensor_tile.sh
