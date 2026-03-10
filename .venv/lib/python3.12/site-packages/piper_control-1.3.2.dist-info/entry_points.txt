@@ -1,0 +1,4 @@
+[console_scripts]
+piper-generate-samples = piper_control.scripts.generate_samples:main
+piper-gravity-compensation = piper_control.scripts.run_gravity_compensation:main
+piper-set-collision-protection = piper_control.scripts.set_collision_protection:main
